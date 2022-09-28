@@ -9,4 +9,4 @@
 - CSS
 - Javascript
 
-Feel free to clone and customise if you like it! Thanks :) 
+Feel free to clone and customise if you like it! Thanks :)
