@@ -203,6 +203,9 @@ img{
     transform: rotate(-180deg);
     color: var(--white-color);
 }
+.home__scroll-link:hover{
+    color: var(--dark-color);
+}
 .home__img{
     position: absolute;
     right: 0;
@@ -239,7 +242,7 @@ img{
 }
 .about__profession{
     display: block;
-    margin-bottom: var(--mb-4);
+    margin-bottom: var(--mb-3);
 }
 .about__social-icon{
     font-size: 1.4rem;
@@ -247,6 +250,35 @@ img{
 }
 .about__social-icon:hover{
     color: var(--first-color);
+}
+
+.about__cv{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover{
+    background-color: #4252fd;
+}
+
+.button__icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
 }
 
 /* ===== SKILLS =====*/
