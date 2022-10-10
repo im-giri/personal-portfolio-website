@@ -467,7 +467,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         text-align: initial;
-        padding: 4rem 0;
+        padding: 3rem 0;
     }
     .about__img{
         width: 200px;
