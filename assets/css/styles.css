@@ -308,7 +308,62 @@ img{
 .skills__titles.active-link::after{
     width: 50%;
 }
-
+.skills__contents{
+    margin: 1.5rem 0.5rem 2.5rem 26.7rem;
+    justify-content: center;
+}
+.skill{
+    margin: 1.3rem 0;
+}
+.skill__name {
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}  
+.skill__bar {
+    width: 45%;
+    height: 5.5px;
+    border-radius: 4px;
+    background-color: #ece6fa;
+    position: relative;
+    overflow: hidden;
+} 
+.skill__progress__python {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    transition: 1s;
+}
+.skill__progress__aws {
+    position: absolute;
+    height: 100%;
+    width: 92%;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    transition: 1s;
+}
+.skill__progress__dev {
+    position: absolute;
+    height: 100%;
+    width: 77%;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    transition: 1s;
+}
+.skill__progress__web {
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    transition: 1s;
+}
 /* .skills__container{
     row-gap: 2rem;
 }
