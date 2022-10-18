@@ -63,9 +63,6 @@ sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 sr.reveal('.about__cv', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle', {})
-sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
-sr.reveal('.skills__img', {delay: 400})
 sr.reveal('.skills__tabs', {delay: 300})
 sr.reveal('.skill.python', {delay: 600, interval: 200})
 sr.reveal('.skill.aws', {delay: 900, interval: 200})

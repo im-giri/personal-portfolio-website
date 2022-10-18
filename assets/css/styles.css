@@ -311,6 +311,10 @@ img{
 .skills__contents{
     margin: 1.5rem 0.5rem 2.5rem 26.7rem;
     justify-content: center;
+    display: none;
+}
+.skills__contents.active-tab{
+    display: block;
 }
 .skill{
     margin: 1.3rem 0;
