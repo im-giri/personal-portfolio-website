@@ -204,7 +204,7 @@ img{
     color: var(--white-color);
 }
 .home__scroll-link:hover{
-    color: var(--dark-color);
+    color: #1d2c31;
 }
 .home__img{
     position: absolute;
@@ -490,7 +490,9 @@ img{
         height: 640px;
     }
     .home__img {
-        width: 500px;
-        right: 24%;
+        width: 380px;
+    }
+    .home__title{
+        margin-bottom: 100px;
     }
 }
